@@ -1,6 +1,6 @@
-# Free Store (trab-dev-web)
+# Sneakers Store (trab-dev-web)
 
-A free store app using fake store api
+Uma loja de sneakers (tênis) utilizando json-server com vue-js no framework quasar.
 
 ## Install the dependencies
 ```bash
