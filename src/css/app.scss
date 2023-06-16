@@ -1,0 +1,77 @@
+// app global css in SCSS form
+a {
+  color: #8d99ae;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d10024;
+  cursor: pointer;
+}
+
+.menu {
+  color: white;
+}
+
+.menu:hover {
+  color: #d10024;
+  cursor: pointer;
+}
+
+a.active {
+  color: #d10024;
+  text-decoration: underline #d10024;
+  text-underline-offset: 0.3em;
+  cursor: pointer;
+}
+
+a.active:hover {
+  color: #d10024;
+  cursor: pointer;
+}
+
+.hover-underline {
+  display: inline-block;
+  position: relative;
+  color: #8d99ae;
+}
+
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #d10024;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.product-rating-star {
+  position: relative;
+  background: #424242;
+}
+.product-rating {
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    border-top: 1px solid #666666;
+    content: "";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+  }
+}

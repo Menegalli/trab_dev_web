@@ -1,0 +1,983 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "teste",
+      "password": "1234",
+      "email": "teste@tester.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "carts": [
+    {
+      "id": 0,
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 0,
+            "name": "Air Jordan 1 High Next Chapter",
+            "price": 2049.97,
+            "description": "Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos em Miles em \"Spider-Man: Across the Spider-Verse\", exclusivamente nos cinemas em junho. Esta nova versão da icônica paleta de cores de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, então entre.",
+            "rating": {
+              "rate": 4.7,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_next_chapter_1.jpg",
+              "detail_image": "images/air_jordan_1_high_next_chapter_2.jpg"
+            }
+          }
+        ],
+        "value": 2049.97,
+        "date": "2023-06-16T22:50:33.016Z"
+      }
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 0,
+            "name": "Air Jordan 1 High Next Chapter",
+            "price": 2049.97,
+            "description": "Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos em Miles em \"Spider-Man: Across the Spider-Verse\", exclusivamente nos cinemas em junho. Esta nova versão da icônica paleta de cores de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, então entre.",
+            "rating": {
+              "rate": 4.7,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_next_chapter_1.jpg",
+              "detail_image": "images/air_jordan_1_high_next_chapter_2.jpg"
+            }
+          },
+          {
+            "id": 5,
+            "name": "Nike Air Force 1 Low Color Of The Month Yellow Jewel",
+            "price": 1295.8,
+            "description": "Já tem sua cor favorita? Sem problemas. A série \"Cor do Mês\" permite que você alimente sua necessidade enquanto celebra um pedaço pouco conhecido da história da Nike - a série original da Cor do Mês, em 1984, pode ter salvado o AF1 da extinção. É isso mesmo, uma reedição era incerta no início do tênis, mas as lojas de esportes em Baltimore os viram vendendo como pão quente e sabiam que o AF1 se tornaria sinônimo de moda e cultura de rua. Então, eles pediram cores personalizadas para vender em suas vitrines... e o resto é história. De materiais imaculados à colorida Speed Yellow e até mesmo uma escova de dentes para limpar sapatos, esta edição oferece uma lição sobre o cobiçado estilo fora da quadra. Toda vez que você arrasar, lembre-se dos lojistas visionários de Baltimore que fizeram tudo acontecer.",
+            "rating": {
+              "rate": 3.5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_1.jpg",
+              "detail_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_2.jpg"
+            }
+          }
+        ],
+        "value": 3345.7699999999995,
+        "date": "2023-06-16T22:51:37.184Z"
+      },
+      "id": 1
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 0,
+            "name": "Air Jordan 1 High Next Chapter",
+            "price": 2049.97,
+            "description": "Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos em Miles em \"Spider-Man: Across the Spider-Verse\", exclusivamente nos cinemas em junho. Esta nova versão da icônica paleta de cores de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, então entre.",
+            "rating": {
+              "rate": 4.7,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_next_chapter_1.jpg",
+              "detail_image": "images/air_jordan_1_high_next_chapter_2.jpg"
+            }
+          },
+          {
+            "id": 5,
+            "name": "Nike Air Force 1 Low Color Of The Month Yellow Jewel",
+            "price": 1295.8,
+            "description": "Já tem sua cor favorita? Sem problemas. A série \"Cor do Mês\" permite que você alimente sua necessidade enquanto celebra um pedaço pouco conhecido da história da Nike - a série original da Cor do Mês, em 1984, pode ter salvado o AF1 da extinção. É isso mesmo, uma reedição era incerta no início do tênis, mas as lojas de esportes em Baltimore os viram vendendo como pão quente e sabiam que o AF1 se tornaria sinônimo de moda e cultura de rua. Então, eles pediram cores personalizadas para vender em suas vitrines... e o resto é história. De materiais imaculados à colorida Speed Yellow e até mesmo uma escova de dentes para limpar sapatos, esta edição oferece uma lição sobre o cobiçado estilo fora da quadra. Toda vez que você arrasar, lembre-se dos lojistas visionários de Baltimore que fizeram tudo acontecer.",
+            "rating": {
+              "rate": 3.5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_1.jpg",
+              "detail_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_2.jpg"
+            }
+          }
+        ],
+        "value": 3345.7699999999995,
+        "date": "2023-06-16T22:51:37.184Z"
+      },
+      "id": 2
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 0,
+            "name": "Air Jordan 1 High Next Chapter",
+            "price": 2049.97,
+            "description": "Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos em Miles em \"Spider-Man: Across the Spider-Verse\", exclusivamente nos cinemas em junho. Esta nova versão da icônica paleta de cores de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, então entre.",
+            "rating": {
+              "rate": 4.7,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_next_chapter_1.jpg",
+              "detail_image": "images/air_jordan_1_high_next_chapter_2.jpg"
+            }
+          },
+          {
+            "id": 5,
+            "name": "Nike Air Force 1 Low Color Of The Month Yellow Jewel",
+            "price": 1295.8,
+            "description": "Já tem sua cor favorita? Sem problemas. A série \"Cor do Mês\" permite que você alimente sua necessidade enquanto celebra um pedaço pouco conhecido da história da Nike - a série original da Cor do Mês, em 1984, pode ter salvado o AF1 da extinção. É isso mesmo, uma reedição era incerta no início do tênis, mas as lojas de esportes em Baltimore os viram vendendo como pão quente e sabiam que o AF1 se tornaria sinônimo de moda e cultura de rua. Então, eles pediram cores personalizadas para vender em suas vitrines... e o resto é história. De materiais imaculados à colorida Speed Yellow e até mesmo uma escova de dentes para limpar sapatos, esta edição oferece uma lição sobre o cobiçado estilo fora da quadra. Toda vez que você arrasar, lembre-se dos lojistas visionários de Baltimore que fizeram tudo acontecer.",
+            "rating": {
+              "rate": 3.5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_1.jpg",
+              "detail_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_2.jpg"
+            }
+          }
+        ],
+        "value": 3345.7699999999995,
+        "date": "2023-06-16T22:51:37.184Z"
+      },
+      "id": 3
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          },
+          {
+            "id": 3,
+            "name": "Yeezy Boost 350 Pirate Black",
+            "price": 2297.99,
+            "description": "A edição de 2023 do adidas Yeezy Boost 350 'Pirate Black' traz de volta uma das colorways OG da silhueta minimalista. Envolto em uma gaiola protetora de borracha, a entressola é construída com amortecimento Boost em todo o comprimento para proteção contra impactos e um passeio suave.",
+            "rating": {
+              "rate": 4,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/yeezy_boost_350_pirate_black_1.jpg",
+              "detail_image": "images/yeezy_boost_350_pirate_black_2.jpg"
+            }
+          }
+        ],
+        "value": 4177.98,
+        "date": "2023-06-16T22:54:06.218Z"
+      },
+      "id": 4
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 1,
+            "name": "Air Jordan 1 OG Lucky Green",
+            "price": 2299.99,
+            "description": "Vestido com um esquema de cores preto, verde da sorte e branco. Este Air Jordan 1 apresenta uma base de couro branco com sobreposições em preto e verde. Ao contrário do par de 2009, este lançamento incluirá “Nike Air” nas línguas. Uma entressola branca sobre uma sola de borracha verde completa o design.",
+            "rating": {
+              "rate": 5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_og_lucky_green_1.jpg",
+              "detail_image": "images/air_jordan_1_high_og_lucky_green_2.jpg"
+            }
+          },
+          {
+            "id": 5,
+            "name": "Nike Air Force 1 Low Color Of The Month Yellow Jewel",
+            "price": 1295.8,
+            "description": "Já tem sua cor favorita? Sem problemas. A série \"Cor do Mês\" permite que você alimente sua necessidade enquanto celebra um pedaço pouco conhecido da história da Nike - a série original da Cor do Mês, em 1984, pode ter salvado o AF1 da extinção. É isso mesmo, uma reedição era incerta no início do tênis, mas as lojas de esportes em Baltimore os viram vendendo como pão quente e sabiam que o AF1 se tornaria sinônimo de moda e cultura de rua. Então, eles pediram cores personalizadas para vender em suas vitrines... e o resto é história. De materiais imaculados à colorida Speed Yellow e até mesmo uma escova de dentes para limpar sapatos, esta edição oferece uma lição sobre o cobiçado estilo fora da quadra. Toda vez que você arrasar, lembre-se dos lojistas visionários de Baltimore que fizeram tudo acontecer.",
+            "rating": {
+              "rate": 3.5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_1.jpg",
+              "detail_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_2.jpg"
+            }
+          }
+        ],
+        "value": 3595.79,
+        "date": "2023-06-16T22:54:47.548Z"
+      },
+      "id": 5
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 1,
+            "name": "Air Jordan 1 OG Lucky Green",
+            "price": 2299.99,
+            "description": "Vestido com um esquema de cores preto, verde da sorte e branco. Este Air Jordan 1 apresenta uma base de couro branco com sobreposições em preto e verde. Ao contrário do par de 2009, este lançamento incluirá “Nike Air” nas línguas. Uma entressola branca sobre uma sola de borracha verde completa o design.",
+            "rating": {
+              "rate": 5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_og_lucky_green_1.jpg",
+              "detail_image": "images/air_jordan_1_high_og_lucky_green_2.jpg"
+            }
+          },
+          {
+            "id": 5,
+            "name": "Nike Air Force 1 Low Color Of The Month Yellow Jewel",
+            "price": 1295.8,
+            "description": "Já tem sua cor favorita? Sem problemas. A série \"Cor do Mês\" permite que você alimente sua necessidade enquanto celebra um pedaço pouco conhecido da história da Nike - a série original da Cor do Mês, em 1984, pode ter salvado o AF1 da extinção. É isso mesmo, uma reedição era incerta no início do tênis, mas as lojas de esportes em Baltimore os viram vendendo como pão quente e sabiam que o AF1 se tornaria sinônimo de moda e cultura de rua. Então, eles pediram cores personalizadas para vender em suas vitrines... e o resto é história. De materiais imaculados à colorida Speed Yellow e até mesmo uma escova de dentes para limpar sapatos, esta edição oferece uma lição sobre o cobiçado estilo fora da quadra. Toda vez que você arrasar, lembre-se dos lojistas visionários de Baltimore que fizeram tudo acontecer.",
+            "rating": {
+              "rate": 3.5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_1.jpg",
+              "detail_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_2.jpg"
+            }
+          }
+        ],
+        "value": 3595.79,
+        "date": "2023-06-16T22:54:47.548Z"
+      },
+      "id": 6
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 3,
+            "name": "Yeezy Boost 350 Pirate Black",
+            "price": 2297.99,
+            "description": "A edição de 2023 do adidas Yeezy Boost 350 'Pirate Black' traz de volta uma das colorways OG da silhueta minimalista. Envolto em uma gaiola protetora de borracha, a entressola é construída com amortecimento Boost em todo o comprimento para proteção contra impactos e um passeio suave.",
+            "rating": {
+              "rate": 4,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/yeezy_boost_350_pirate_black_1.jpg",
+              "detail_image": "images/yeezy_boost_350_pirate_black_2.jpg"
+            }
+          },
+          {
+            "id": 4,
+            "name": "Nike Air Max 1 Michigan",
+            "price": 1899.99,
+            "description": "Vimos como vocês votaram em nosso “Torneio CO.JP” e decidimos fazer um Air Max 1 que combina elementos dos 8 melhores tênis vencedores. Claro que parece confuso, mas achamos que o resultado é bastante primitivo. Você provavelmente pode dizer de onde veio a colorway Varsity Maize e Midnight Navy. E apostamos que você pode facilmente colocar a textura de crocodilo, assim como aquela textura de pele de cobra no Swoosh. E os outros vencedores - você pode dizer como os trabalhamos?",
+            "rating": {
+              "rate": 3,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/nike_air_max_1_michigan_1.jpg",
+              "detail_image": "images/nike_air_max_1_michigan_2.jpg"
+            }
+          },
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          }
+        ],
+        "value": 6077.969999999999,
+        "date": "2023-06-16T23:03:34.465Z"
+      },
+      "id": 7
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 3,
+            "name": "Yeezy Boost 350 Pirate Black",
+            "price": 2297.99,
+            "description": "A edição de 2023 do adidas Yeezy Boost 350 'Pirate Black' traz de volta uma das colorways OG da silhueta minimalista. Envolto em uma gaiola protetora de borracha, a entressola é construída com amortecimento Boost em todo o comprimento para proteção contra impactos e um passeio suave.",
+            "rating": {
+              "rate": 4,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/yeezy_boost_350_pirate_black_1.jpg",
+              "detail_image": "images/yeezy_boost_350_pirate_black_2.jpg"
+            }
+          },
+          {
+            "id": 4,
+            "name": "Nike Air Max 1 Michigan",
+            "price": 1899.99,
+            "description": "Vimos como vocês votaram em nosso “Torneio CO.JP” e decidimos fazer um Air Max 1 que combina elementos dos 8 melhores tênis vencedores. Claro que parece confuso, mas achamos que o resultado é bastante primitivo. Você provavelmente pode dizer de onde veio a colorway Varsity Maize e Midnight Navy. E apostamos que você pode facilmente colocar a textura de crocodilo, assim como aquela textura de pele de cobra no Swoosh. E os outros vencedores - você pode dizer como os trabalhamos?",
+            "rating": {
+              "rate": 3,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/nike_air_max_1_michigan_1.jpg",
+              "detail_image": "images/nike_air_max_1_michigan_2.jpg"
+            }
+          },
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          }
+        ],
+        "value": 6077.969999999999,
+        "date": "2023-06-16T23:03:34.465Z"
+      },
+      "id": 8
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          },
+          {
+            "id": 1,
+            "name": "Air Jordan 1 OG Lucky Green",
+            "price": 2299.99,
+            "description": "Vestido com um esquema de cores preto, verde da sorte e branco. Este Air Jordan 1 apresenta uma base de couro branco com sobreposições em preto e verde. Ao contrário do par de 2009, este lançamento incluirá “Nike Air” nas línguas. Uma entressola branca sobre uma sola de borracha verde completa o design.",
+            "rating": {
+              "rate": 5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_og_lucky_green_1.jpg",
+              "detail_image": "images/air_jordan_1_high_og_lucky_green_2.jpg"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Air Jordan 1 High Next Chapter",
+            "price": 2049.97,
+            "description": "Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos em Miles em \"Spider-Man: Across the Spider-Verse\", exclusivamente nos cinemas em junho. Esta nova versão da icônica paleta de cores de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, então entre.",
+            "rating": {
+              "rate": 4.7,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_next_chapter_1.jpg",
+              "detail_image": "images/air_jordan_1_high_next_chapter_2.jpg"
+            }
+          }
+        ],
+        "value": 6229.949999999999,
+        "date": "2023-06-16T23:06:44.364Z"
+      },
+      "id": 9
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          },
+          {
+            "id": 1,
+            "name": "Air Jordan 1 OG Lucky Green",
+            "price": 2299.99,
+            "description": "Vestido com um esquema de cores preto, verde da sorte e branco. Este Air Jordan 1 apresenta uma base de couro branco com sobreposições em preto e verde. Ao contrário do par de 2009, este lançamento incluirá “Nike Air” nas línguas. Uma entressola branca sobre uma sola de borracha verde completa o design.",
+            "rating": {
+              "rate": 5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_og_lucky_green_1.jpg",
+              "detail_image": "images/air_jordan_1_high_og_lucky_green_2.jpg"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Air Jordan 1 High Next Chapter",
+            "price": 2049.97,
+            "description": "Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos em Miles em \"Spider-Man: Across the Spider-Verse\", exclusivamente nos cinemas em junho. Esta nova versão da icônica paleta de cores de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, então entre.",
+            "rating": {
+              "rate": 4.7,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_next_chapter_1.jpg",
+              "detail_image": "images/air_jordan_1_high_next_chapter_2.jpg"
+            }
+          }
+        ],
+        "value": 6229.949999999999,
+        "date": "2023-06-16T23:06:44.364Z"
+      },
+      "id": 10
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 3,
+            "name": "Yeezy Boost 350 Pirate Black",
+            "price": 2297.99,
+            "description": "A edição de 2023 do adidas Yeezy Boost 350 'Pirate Black' traz de volta uma das colorways OG da silhueta minimalista. Envolto em uma gaiola protetora de borracha, a entressola é construída com amortecimento Boost em todo o comprimento para proteção contra impactos e um passeio suave.",
+            "rating": {
+              "rate": 4,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/yeezy_boost_350_pirate_black_1.jpg",
+              "detail_image": "images/yeezy_boost_350_pirate_black_2.jpg"
+            }
+          },
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          }
+        ],
+        "value": 4177.98,
+        "date": "2023-06-16T23:08:37.220Z"
+      },
+      "id": 11
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          },
+          {
+            "id": 1,
+            "name": "Air Jordan 1 OG Lucky Green",
+            "price": 2299.99,
+            "description": "Vestido com um esquema de cores preto, verde da sorte e branco. Este Air Jordan 1 apresenta uma base de couro branco com sobreposições em preto e verde. Ao contrário do par de 2009, este lançamento incluirá “Nike Air” nas línguas. Uma entressola branca sobre uma sola de borracha verde completa o design.",
+            "rating": {
+              "rate": 5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_og_lucky_green_1.jpg",
+              "detail_image": "images/air_jordan_1_high_og_lucky_green_2.jpg"
+            }
+          },
+          {
+            "id": 8,
+            "name": "Nike Air Max 1 '87 Corduroy Tiger Leopard",
+            "price": 1599.99,
+            "description": "Este Nike Air Max 1 vem construído em uma mistura de tecidos de couro, camurça, veludo e malha. O sapato está vestido com uma mistura de tons pastel perfeito para os meses de verão. Alguns dos principais detalhes incluem estampa de oncinha ao longo da gola, estampa de tigre nas palmilhas e estampa paisley bordada ao longo da biqueira. Uma entressola envelhecida sobre uma sola de borracha preta completa o design.",
+            "rating": {
+              "rate": 3.5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/nike_air_max_1_87_corduroy_tiger_leopard_1.jpg",
+              "detail_image": "images/nike_air_max_1_87_corduroy_tiger_leopard_2.jpg"
+            }
+          }
+        ],
+        "value": 5779.969999999999,
+        "date": "2023-06-16T23:08:55.795Z"
+      },
+      "id": 12
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          },
+          {
+            "id": 1,
+            "name": "Air Jordan 1 OG Lucky Green",
+            "price": 2299.99,
+            "description": "Vestido com um esquema de cores preto, verde da sorte e branco. Este Air Jordan 1 apresenta uma base de couro branco com sobreposições em preto e verde. Ao contrário do par de 2009, este lançamento incluirá “Nike Air” nas línguas. Uma entressola branca sobre uma sola de borracha verde completa o design.",
+            "rating": {
+              "rate": 5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_og_lucky_green_1.jpg",
+              "detail_image": "images/air_jordan_1_high_og_lucky_green_2.jpg"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Air Jordan 1 High Next Chapter",
+            "price": 2049.97,
+            "description": "Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos em Miles em \"Spider-Man: Across the Spider-Verse\", exclusivamente nos cinemas em junho. Esta nova versão da icônica paleta de cores de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, então entre.",
+            "rating": {
+              "rate": 4.7,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_next_chapter_1.jpg",
+              "detail_image": "images/air_jordan_1_high_next_chapter_2.jpg"
+            }
+          },
+          {
+            "id": 3,
+            "name": "Yeezy Boost 350 Pirate Black",
+            "price": 2297.99,
+            "description": "A edição de 2023 do adidas Yeezy Boost 350 'Pirate Black' traz de volta uma das colorways OG da silhueta minimalista. Envolto em uma gaiola protetora de borracha, a entressola é construída com amortecimento Boost em todo o comprimento para proteção contra impactos e um passeio suave.",
+            "rating": {
+              "rate": 4,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/yeezy_boost_350_pirate_black_1.jpg",
+              "detail_image": "images/yeezy_boost_350_pirate_black_2.jpg"
+            }
+          }
+        ],
+        "value": 8527.939999999999,
+        "date": "2023-06-16T23:10:51.133Z"
+      },
+      "id": 13
+    },
+    {
+      "user_id": 1,
+      "cart": {
+        "products": [
+          {
+            "id": 1,
+            "name": "Air Jordan 1 OG Lucky Green",
+            "price": 2299.99,
+            "description": "Vestido com um esquema de cores preto, verde da sorte e branco. Este Air Jordan 1 apresenta uma base de couro branco com sobreposições em preto e verde. Ao contrário do par de 2009, este lançamento incluirá “Nike Air” nas línguas. Uma entressola branca sobre uma sola de borracha verde completa o design.",
+            "rating": {
+              "rate": 5,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_1_high_og_lucky_green_1.jpg",
+              "detail_image": "images/air_jordan_1_high_og_lucky_green_2.jpg"
+            }
+          },
+          {
+            "id": 2,
+            "name": "Air Jordan 4 Thunder",
+            "price": 1879.99,
+            "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+            "rating": {
+              "rate": 3.9,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/air_jordan_4_thunder_1.jpg",
+              "detail_image": "images/air_jordan_4_thunder_2.jpg"
+            }
+          },
+          {
+            "id": 3,
+            "name": "Yeezy Boost 350 Pirate Black",
+            "price": 2297.99,
+            "description": "A edição de 2023 do adidas Yeezy Boost 350 'Pirate Black' traz de volta uma das colorways OG da silhueta minimalista. Envolto em uma gaiola protetora de borracha, a entressola é construída com amortecimento Boost em todo o comprimento para proteção contra impactos e um passeio suave.",
+            "rating": {
+              "rate": 4,
+              "count": 124
+            },
+            "images": {
+              "display_image": "images/yeezy_boost_350_pirate_black_1.jpg",
+              "detail_image": "images/yeezy_boost_350_pirate_black_2.jpg"
+            }
+          }
+        ],
+        "value": 6477.969999999999,
+        "date": "2023-06-16T23:28:06.327Z"
+      },
+      "id": 14
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "name": "Air Jordan 1 High Next Chapter",
+      "price": 2049.97,
+      "description": "Você não precisa de uma capa para voar - apenas seus AJ1s. Você sabe, aqueles vistos em Miles em \"Spider-Man: Across the Spider-Verse\", exclusivamente nos cinemas em junho. Esta nova versão da icônica paleta de cores de Chicago apresenta uma mistura de materiais, incluindo couro lustroso e camurça macia. O mundo está esperando, então entre.",
+      "rating": {
+        "rate": 4.7,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/air_jordan_1_high_next_chapter_1.jpg",
+        "detail_image": "images/air_jordan_1_high_next_chapter_2.jpg"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Air Jordan 1 OG Lucky Green",
+      "price": 2299.99,
+      "description": "Vestido com um esquema de cores preto, verde da sorte e branco. Este Air Jordan 1 apresenta uma base de couro branco com sobreposições em preto e verde. Ao contrário do par de 2009, este lançamento incluirá “Nike Air” nas línguas. Uma entressola branca sobre uma sola de borracha verde completa o design.",
+      "rating": {
+        "rate": 5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/air_jordan_1_high_og_lucky_green_1.jpg",
+        "detail_image": "images/air_jordan_1_high_og_lucky_green_2.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Air Jordan 4 Thunder",
+      "price": 1879.99,
+      "description": "O modelo já visto anteriormente em 2006, surge novamente nas cores originais. O design é construído com uma colorway preta e amarela, onde o preto surge no cabedal de nobuck, telas e sola e o amarelo vem trazendo luminosidade nos detalhes. como entressola, ilhós, e tecido subexposto da tela preta. O logo Jumpman na língua e calcanhar possuem aplicação em branco, trazendo equilíbrio para a composição.",
+      "rating": {
+        "rate": 3.9,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/air_jordan_4_thunder_1.jpg",
+        "detail_image": "images/air_jordan_4_thunder_2.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Yeezy Boost 350 Pirate Black",
+      "price": 2297.99,
+      "description": "A edição de 2023 do adidas Yeezy Boost 350 'Pirate Black' traz de volta uma das colorways OG da silhueta minimalista. Envolto em uma gaiola protetora de borracha, a entressola é construída com amortecimento Boost em todo o comprimento para proteção contra impactos e um passeio suave.",
+      "rating": {
+        "rate": 4,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/yeezy_boost_350_pirate_black_1.jpg",
+        "detail_image": "images/yeezy_boost_350_pirate_black_2.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Max 1 Michigan",
+      "price": 1899.99,
+      "description": "Vimos como vocês votaram em nosso “Torneio CO.JP” e decidimos fazer um Air Max 1 que combina elementos dos 8 melhores tênis vencedores. Claro que parece confuso, mas achamos que o resultado é bastante primitivo. Você provavelmente pode dizer de onde veio a colorway Varsity Maize e Midnight Navy. E apostamos que você pode facilmente colocar a textura de crocodilo, assim como aquela textura de pele de cobra no Swoosh. E os outros vencedores - você pode dizer como os trabalhamos?",
+      "rating": {
+        "rate": 3,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_max_1_michigan_1.jpg",
+        "detail_image": "images/nike_air_max_1_michigan_2.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Nike Air Force 1 Low Color Of The Month Yellow Jewel",
+      "price": 1295.8,
+      "description": "Já tem sua cor favorita? Sem problemas. A série \"Cor do Mês\" permite que você alimente sua necessidade enquanto celebra um pedaço pouco conhecido da história da Nike - a série original da Cor do Mês, em 1984, pode ter salvado o AF1 da extinção. É isso mesmo, uma reedição era incerta no início do tênis, mas as lojas de esportes em Baltimore os viram vendendo como pão quente e sabiam que o AF1 se tornaria sinônimo de moda e cultura de rua. Então, eles pediram cores personalizadas para vender em suas vitrines... e o resto é história. De materiais imaculados à colorida Speed Yellow e até mesmo uma escova de dentes para limpar sapatos, esta edição oferece uma lição sobre o cobiçado estilo fora da quadra. Toda vez que você arrasar, lembre-se dos lojistas visionários de Baltimore que fizeram tudo acontecer.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_1.jpg",
+        "detail_image": "images/nike_air_force_1_low_color_of_the_month_yellow_jewel_2.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Nike Air Force 1 Low Time Warp",
+      "price": 899,
+      "description": "Vestido com um esquema de cores Summit White, Game Royal, Neutral Grey, Coconut Milk e Black. Este Nike Air Force 1 Low vem construído em uma mistura de materiais de malha, camurça e couro. O destaque do sapato é o Royal Blue Swooshes e sobreposições para dar aquela vibe Air Max 1, enquanto tem palmilhas gráficas “Timeless” para completar o design.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_force_1_low_time_warp_1.jpg",
+        "detail_image": "images/nike_air_force_1_low_time_warp_2.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Nike Air Adjust Force 2023 Vast Grey and Metallic Silver",
+      "price": 2195.3,
+      "description": "Chegando quentinho e pronto para a estação, o sapato de basquete clandestino que você tanto queria ver nas ruas finalmente está pronto para renovar seu visual. Couro cinza vasto e detalhes bordados trazem uma mística esportiva, enquanto os acabamentos em prata metálica e uma entressola Sand Drift esculpida permitem que você entre no futuro. Ah, e mantivemos a alça removível no meio do pé que tornou esse visual lendário - e adicionamos outra para que você possa personalizar seu visual.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_adjust_force_2023_1.jpg",
+        "detail_image": "images/nike_air_adjust_force_2023_2.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nike Air Max 1 '87 Corduroy Tiger Leopard",
+      "price": 1599.99,
+      "description": "Este Nike Air Max 1 vem construído em uma mistura de tecidos de couro, camurça, veludo e malha. O sapato está vestido com uma mistura de tons pastel perfeito para os meses de verão. Alguns dos principais detalhes incluem estampa de oncinha ao longo da gola, estampa de tigre nas palmilhas e estampa paisley bordada ao longo da biqueira. Uma entressola envelhecida sobre uma sola de borracha preta completa o design.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_max_1_87_corduroy_tiger_leopard_1.jpg",
+        "detail_image": "images/nike_air_max_1_87_corduroy_tiger_leopard_2.jpg"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Nike Air Force 1 Low Jewel Triple White",
+      "price": 1379.99,
+      "description": "Já tem sua cor favorita? Sem problemas. A série \"Color of the Month\" permite que você alimente sua necessidade enquanto celebra um pedaço pouco conhecido da história da Nike - a série original Color of the Month, em 1984, pode ter salvado o Air Force 1 da extinção. É isso mesmo, uma reedição era incerta no início do tênis, mas as lojas de esportes em Baltimore os viram vendendo como bolos quentes e sabiam que o AF1 se tornaria sinônimo de moda e cultura de rua. Então, eles pediram cores personalizadas para vender em suas vitrines... e o resto é história. De materiais imaculados a esta colorway Branco e Prata Metálico (e até mesmo uma escova de limpeza de sapatos), esta edição oferece uma lição de estilo cobiçado fora da quadra. Toda vez que você arrasar, lembre-se dos lojistas visionários de Baltimore que fizeram tudo acontecer.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_force_1_low_jewel_triple_white_1.jpg",
+        "detail_image": "images/nike_air_force_1_low_jewel_triple_white_2.jpg"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Nike Air Max 97 Terrascape Mustard Yellow Maroon",
+      "price": 1499.99,
+      "description": "Fabricadas com, pelo menos, 20% de materiais reciclados, todos os detalhes foram cuidadosamente concebidos com algum conteúdo reciclado. Elevando o estilo, a espuma resistente na entresola e a borracha no solado contam com Nike Grind com efeito salpicado para um look divertido e prático.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_max_97_terrascape_mustard_1.jpg",
+        "detail_image": "images/nike_air_max_97_terrascape_mustard_2.jpg"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Tiffany & Co. x Nike Air Force 1 Low 1837",
+      "price": 10999.89,
+      "description": "O Tiffany & Co. x Nike Air Force 1 Low '1837' oferece a colaboração de estreia entre o icônico joalheiro de Nova York e o Swoosh. Enquanto o 'Diamond' Dunk SB de 2005 prestava homenagem ao empório de luxo apresentando uma base de couro na tonalidade de assinatura da Tiffany, este lançamento do AF1 oficializa a parceria da marca. Nomeado após o ano de fundação da Tiffany, o cano baixo utiliza uma camurça preta superior com um Swoosh de couro caído no tom instantaneamente reconhecível de azul ovo de robin. As etiquetas de língua tecidas exibem o script 'Tiffany', enquanto a marca tradicional 'Nike Air' aparece em bordado tonal em cada aba de calcanhar de couro preto. Abaixo disso, um emblema da Tiffany gravado brilha em prata metálica. A Tiffany revelou uma gama de acessórios de prata de lei para acompanhar os tênis premium, disponíveis separadamente do AF1: uma calçadeira, uma escova para sapatos, dubrae de renda e uma corrente de apito.",
+      "rating": {
+        "rate": 5,
+        "count": 1345
+      },
+      "images": {
+        "display_image": "images/tiffany_x_nike_air_force_1_low_1837_1.jpg",
+        "detail_image": "images/tiffany_x_nike_air_force_1_low_1837_2.jpg"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Nike Air Dunk Jumbo Mint Foam",
+      "price": 1198.99,
+      "description": "Vestido com um esquema de cores branco, prata claro, espuma de menta, espuma rosa e cinza claro. Este Nike Dunk Low apresenta uma construção de malha com sobreposições de couro e línguas acolchoadas. As abas de puxar nas línguas sobre uma unidade de sola de borracha modificada completam o design.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_dunk_jumbo_mint_foam_1.jpg",
+        "detail_image": "images/nike_air_dunk_jumbo_mint_foam_2.jpg"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Ambush x Nike Air Force 1 Low Black",
+      "price": 1969.99,
+      "description": "Teleporte entre mundos no AF1 x Ambush. O designer de moda e diretor criativo visionário Yoon Ahn aumenta o volume do visual icônico, apresentando tons ousados e detalhes contrastantes inspirados em espaços techno. O couro premium oferece uma estética rica e cheia de variações naturais, para que você possa fazer a transição sem esforço do seu 9-5 para a pista de dança. E não importa se você está dançando ou não, o Swoosh exagerado dá a sensação de movimento. Entre — as coisas estão esquentando.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/ambush_x_nike_air_force_1_low_black_1.jpg",
+        "detail_image": "images/ambush_x_nike_air_force_1_low_black_2.jpg"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Off-White x Nike Air Force 1 Mid SP Leather Pine Green",
+      "price": 2050,
+      "description": "O legado de Virgil Abloh continua com o Air Force 1 Mid. Comemorando 40 anos de estilo AF1, ele reinventou a silhueta lendária através das lentes futuristas. Vestido em verde pinheiro fresco, a parte superior de couro premium oferece um acabamento clássico, enquanto a sola com pontas se conecta diretamente à filosofia ISPA de \"Improvise. Scavenge. Protect. Adapt\". E, como sempre, Virgil deixou espaço para que outros fossem criativos - o design combina cadarços tradicionais com um conjunto secundário que passa por cabos Flywire. O resultado: uma reflexão modernizada e experimental sobre o tênis mais reverenciado da história.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/off_white_x_nike_air_force_1_mid_sp_leather_1.jpg",
+        "detail_image": "images/off_white_x_nike_air_force_1_mid_sp_leather_2.jpg"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Nike Air Force 1 Low Tartan Plaid",
+      "price": 1084.99,
+      "description": "Vestido com um esquema de cores branco, vermelho universitário e verde estádio. Este Nike Air Force 1 Low apresenta uma base de couro branco com tecidos xadrez tartan usados nos Swooshes e saltos. Uma sola de borracha Sail AF1 completa o design.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_force_1_low_tartan_plaid_1.jpg",
+        "detail_image": "images/nike_air_force_1_low_tartan_plaid_2.jpg"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Nike Air Force 1 Low Swoosh Pocket",
+      "price": 1039.99,
+      "description": "Vestido com um esquema de cores Photon Dust, Team Red, Summit White e Muslin. Este Nike Air Force 1 Low apresenta uma base de couro branco com sobreposições de tecido cinza e Swooshes e saltos Team Red. Dubraes dourados metálicos e etiquetas penduradas com palmilhas de marca especial sobre uma sola de borracha Muslin AF1 completam o design.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_air_force_1_low_swoosh_pocket_1.jpg",
+        "detail_image": "images/nike_air_force_1_low_swoosh_pocket_2.jpg"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Nike Dunk Low Safari Swoosh Chlorophyll",
+      "price": 1146.92,
+      "description": "Criado para as quadras, mas conquistou as ruas, o ícone do basquete dos anos 80 retorna com detalhes clássicos e um toque retrô. As sobreposições de camurça flexível ajudam o estilo vintage do Dunk Low, enquanto os logotipos Swoosh estampados em negrito adicionam um toque selvagem. Além disso, o colarinho acolchoado de baixo perfil mantém você confortável em qualquer lugar.",
+      "rating": {
+        "rate": 3.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_dunk_low_safari_swoosh_chlorophyll_1.jpg",
+        "detail_image": "images/nike_dunk_low_safari_swoosh_chlorophyll_2.jpg"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Nike Dunk Low SE Just Do It Team Red",
+      "price": 1095.91,
+      "description": "Vestido com um esquema de cores Sail, Team Red, Black e Muslin. Este Nike Dunk Low apresenta uma base de couro têxtil com línguas de malha e forro. Destacando o sapato estão ferragens especiais em ouro, “Just Do It” e algarismos romanos lendo 2023 na lateral do calcanhar e palmilhas. Uma entressola envelhecida no topo de uma sola Grind Rubber completa o design.",
+      "rating": {
+        "rate": 4.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_dunk_low_se_just_do_it_team_red_1.jpg",
+        "detail_image": "images/nike_dunk_low_se_just_do_it_team_red_2.jpg"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Nike Dunk Low PS Tiger Stripes",
+      "price": 1098.99,
+      "description": "Seu filho estará pronto para rugir com o Nike Dunk Low Next Nature. Cuidadosamente feitos com couro sintético e lona duráveis, eles apresentam listras de tigre ousadas para um estilo que certamente ajudará os pezinhos a se destacarem onde quer que passem. Um cano baixo acolchoado ajuda a mantê-los confortáveis, enquanto uma sola de borracha adiciona tração durável para que as crianças possam explorar o dia todo.",
+      "rating": {
+        "rate": 2.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/nike_dunk_low_ps_tiger_stripes_1.jpg",
+        "detail_image": "images/nike_dunk_low_ps_tiger_stripes_2.jpg"
+      }
+    },
+    {
+      "id": 20,
+      "name": "MMW x Nike 005 Slide Dark Khaki",
+      "price": 2399.99,
+      "description": "Leve a moda para novos espaços com slides projetados por Matthew M. Williams, fundador e diretor criativo da 1017 ALYX 9SM. Sua filosofia é simples - combinar a influência de sua vida nos Estados Unidos e na Europa com as últimas inovações - e o 005 Slide x MMW é uma manifestação desse espírito. A sola de espuma dupla tem uma placa de estabilidade passando pelo meio para conforto meditativo, e a parte superior de espuma arejada é perfurada para ajudar a expelir o calor. Os orifícios de drenagem sob os pés ajudam a manter você seco. E porque sabemos que você está indo a lugares, eles vêm com uma bolsa de transporte para suas próximas férias (embora você provavelmente só vai querer usá-los).",
+      "rating": {
+        "rate": 4.5,
+        "count": 124
+      },
+      "images": {
+        "display_image": "images/mmw_x_nike_005_slide_dark_khaki_1.jpg",
+        "detail_image": "images/mmw_x_nike_005_slide_dark_khaki_2.jpg"
+      }
+    }
+  ]
+}
